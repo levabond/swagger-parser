@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000495">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: swagger-codegen generate -i http://a-quiz.mintrocket.ru/docs/api-docs.json  -l swift5 -o ../ -a 'Authorization:Basic YWRtaW46VDBKcEh2TFM5clBU'" time="3.02033">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>
