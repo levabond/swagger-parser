@@ -9,3 +9,4 @@ Utils:
 - swagger-parser
 - swinject
 - xcodegen
+- Swift Package Manager
