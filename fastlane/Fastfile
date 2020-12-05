@@ -18,7 +18,7 @@ default_platform(:ios)
 platform :ios do
   desc "run generator"
   lane :api  do
-	sh("swagger-codegen generate -i http://a-quiz.mintrocket.ru/docs/api-docs.json  -l swift5 -o ../swagger/DataLayer/ -a 'Authorization:Basic YWRtaW46VDBKcEh2TFM5clBU'")
+	sh("swagger-codegen generate -i http://a-quiz.mintrocket.ru/docs/api-docs.json  -l swift5 -o ../swagger/DataLayer/ -a 'Authorization:Basic login:pass'")
     build()
     # add actions here: https://docs.fastlane.tools/actions
   end
