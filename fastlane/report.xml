@@ -5,12 +5,27 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000495">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000541">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: swagger-codegen generate -i http://a-quiz.mintrocket.ru/docs/api-docs.json  -l swift5 -o ../ -a 'Authorization:Basic YWRtaW46VDBKcEh2TFM5clBU'" time="3.02033">
+      <testcase classname="fastlane.lanes" name="1: swagger-codegen generate -i http://a-quiz.mintrocket.ru/docs/api-docs.json  -l swift5 -o ../swagger/DataLayer/ -a 'Authorization:Basic YWRtaW46VDBKcEh2TFM5clBU'" time="3.00076">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: Switch to ios build lane" time="0.000338">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: xcodegen" time="0.163403">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="4: open ../swagger.xcodeproj" time="0.131161">
         
       </testcase>
     

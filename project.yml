@@ -1,0 +1,20 @@
+
+name: swagger
+options:
+  bundleIdPrefix: com.myapp.swagger
+packages:
+  Swinject:
+    url: https://github.com/Swinject/Swinject.git
+    from: 2.7.1
+targets:
+  swagger:
+    type: application
+    platform: iOS
+    deploymentTarget: "9.0"
+    sources: [swagger]
+    settings:
+      configs:
+        debug:
+          CUSTOM_BUILD_SETTING: my_debug_value
+        release:
+          CUSTOM_BUILD_SETTING: my_release_value
