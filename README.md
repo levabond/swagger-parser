@@ -6,7 +6,8 @@
 
 Utils:
 - Fastlane
-- swagger-parser
+- swagger-parser https://github.com/swagger-api/swagger-parser
 - swinject
 - xcodegen
 - Swift Package Manager
+
